@@ -49,7 +49,7 @@
 
 ## Deploy
 - [ ] Criar checkpoint final
-- [x] Publicar sistema (Correção de API)
+- [x] Publicar sistema (Versão 1.0.8 - Forçar Deploy)
 
 ## Melhorias Solicitadas
 - [ ] Adicionar tabela de itens no modal de budget
