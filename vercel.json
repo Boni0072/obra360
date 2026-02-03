@@ -1,11 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api/index"
+      "source": "/api/trpc",
+      "destination": "/api/trpc"
     },
     {
-      "handle": "filesystem"
+      "source": "/api/trpc/(.*)",
+      "destination": "/api/trpc"
     },
     {
       "source": "/(.*)",
