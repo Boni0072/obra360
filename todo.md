@@ -49,7 +49,7 @@
 
 ## Deploy
 - [ ] Criar checkpoint final
-- [ ] Publicar sistema
+- [x] Publicar sistema (Em andamento)
 
 ## Melhorias Solicitadas
 - [ ] Adicionar tabela de itens no modal de budget
