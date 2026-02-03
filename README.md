@@ -1,5 +1,7 @@
 # Sistema de Controle de Obras (Obra360)
 
+> **Nota:** Este projeto está configurado para deploy no Vercel.
+
 Sistema para gestão financeira e física de obras, com foco em controle de Capex/Opex e ativos imobilizados.
 
 ## Funcionalidades Principais
