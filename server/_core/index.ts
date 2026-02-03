@@ -6,7 +6,6 @@ import { createExpressMiddleware } from "@trpc/server/adapters/express";
 import { appRouter } from "../routers";
 import { createContext } from "./context";
 import { registerOAuthRoutes } from "./oauth";
-import { setupVite, serveStatic } from "./vite";
 import { fileURLToPath } from "url";
 
 export const app = express();
@@ -27,8 +26,10 @@ app.use(
 
 async function startServer() {
   if (process.env.NODE_ENV === "development") {
+    const { setupVite } = await import("./vite");
     await setupVite(app, server);
   } else {
+    const { serveStatic } = await import("./vite");
     serveStatic(app);
   }
 
