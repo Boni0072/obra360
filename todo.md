@@ -24,7 +24,7 @@
 - [x] Página de listagem de obras
 - [x] Página de criação de obra
 - [x] Página de edição de obra
-- [ ] Página de detalhes da obra
+- [x] Página de detalhes da obra
 
 ## Frontend - Budgets
 - [x] Página de gestão de budgets
