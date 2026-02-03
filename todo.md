@@ -39,7 +39,7 @@
 
 ## Frontend - Dashboard
 - [x] Dashboard com visão geral
-- [ ] Gráficos de obras por status
+- [x] Gráficos de obras por status
 - [x] Gráficos de budget por categoria
 - [ ] Filtros por status, tipo, período
 

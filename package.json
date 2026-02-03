@@ -1,6 +1,6 @@
 {
   "name": "sistema-controle-obras",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "license": "MIT",
   "packageManager": "yarn@1.22.22",
